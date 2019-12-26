@@ -80,5 +80,12 @@ JOIN
 ON 			a.SalesPersonID = b.SalesPersonID;
 
 -- Question  7: 
+USE adventureworks;
+SELECT a.SalesOrderID,a.OrderDate,e.Title,b.Bonus,b.SalesYTD
+From  salesorderheader a
+JOIN salesperson b ON a.SalesPersonID=b.SalesPersonID
+LEFT JOIN
+Employee e ON  a.SalesPersonID= e.EmployeeID;
+
 
 
