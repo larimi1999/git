@@ -1,0 +1,17 @@
+
+.table_xl{
+  width  :100%;
+  border-collapse: collapse;
+
+}
+#top_xl{
+  border-style: hidden;
+  background-color:grey;
+}
+#top_xl_1{
+  color: #ffffff;
+  background-color:blue;
+}
+#color_1{
+    background-color: #DCDCDC;
+}
